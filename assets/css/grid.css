@@ -1,7 +1,6 @@
 .container {
     display: grid;
     height: 100vh;
-    grid-auto-columns: 4fr 2fr;
     grid-template-rows: 10% 1fr minmax(10%, max-content);
     grid-template-areas:
         "header header header header header header"
