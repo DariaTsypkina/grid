@@ -1,6 +1,7 @@
 .container {
     display: grid;
     height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 10% 1fr minmax(10%, max-content);
     grid-template-areas:
         "header header header header header header"
