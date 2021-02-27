@@ -20,7 +20,6 @@
     grid-area: main;
     background-color: #FFF8E3;
     display: grid;
-    ;
     grid-template-columns: repeat(auto-fill, minmax(1fr, 2fr));
     grid-template-rows: repeat(2, 1fr);
 }
