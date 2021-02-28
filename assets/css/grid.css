@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 10% 1fr minmax(10%, max-content);
+    grid-template-rows: minmax(10%, max-content) 1fr minmax(10%, max-content);
     grid-template-areas:
         "header header header header header header"
         "main main main main sidebar sidebar"
@@ -20,7 +20,7 @@
     grid-area: main;
     background-color: #FFF8E3;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 2fr));
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
 }
 
@@ -36,7 +36,7 @@
 
 .more {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0.5fr, 1fr));
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 1rem;
     grid-gap: 1rem;
