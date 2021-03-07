@@ -7,8 +7,15 @@
         "header header header header header header"
         "main main main main sidebar sidebar"
         "footer footer footer footer footer footer";
+
     font-weight: bolder;
+    font-size: 1em;
     text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
 }
 
 .header {
@@ -60,7 +67,9 @@
 }
 
 .section_footer {
-    background-color: #FAFAFA;
+    width: 50%;
+
     padding: 1.25rem;
     margin: auto;
+    background-color: #FAFAFA;
 }
